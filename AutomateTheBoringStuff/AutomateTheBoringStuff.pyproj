@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e444ce07-fb2e-4163-9848-24d6f32a30d4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AutomateTheBoringStuff.py</StartupFile>
+    <StartupFile>HelloWorld.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AutomateTheBoringStuff.py" />
+    <None Include="AutomateTheBoringStuff.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HelloWorld.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
