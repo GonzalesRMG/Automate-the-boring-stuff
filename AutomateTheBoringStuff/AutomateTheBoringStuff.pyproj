@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>AutomateTheBoringStuff</Name>
     <RootNamespace>AutomateTheBoringStuff</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
